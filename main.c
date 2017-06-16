@@ -1,7 +1,12 @@
-#include <stdio.h>
+#include (stdio.h)
 
-int main ()
+void a(void)
 {
-printf ('Hello!');
+printf ("A\r\n");
+}
+int main (void)
+{
+printf ("Hello, world!\r\n");
+a();
 return 0;
 }
